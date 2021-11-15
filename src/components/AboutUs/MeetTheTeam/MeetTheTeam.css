@@ -1,0 +1,37 @@
+.heading {
+  color: black;
+  font-weight: 600;
+  font-size: 4rem;
+  text-align: center;
+  margin: 4rem 0 3rem 0;
+}
+
+.teamnav {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 0 0;
+  flex-wrap: wrap;
+}
+
+.teamnav button {
+  margin: 0 1rem;
+  border: none;
+  background-color: white;
+  font-size: large;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+}
+
+.teamnav button:hover {
+  background-color: rgb(145, 143, 143);
+}
+
+.active {
+  background-color: #2a40d4 !important;
+  color: white;
+}
+
+.btn {
+  border: 1px solid black;
+}

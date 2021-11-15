@@ -1,0 +1,59 @@
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maincontainer h1 {
+  color: black;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.container {
+  margin: 1rem;
+  width: 90%;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+}
+
+.content {
+  width: 25%;
+  padding: 1rem 1.2rem;
+  display: flex;
+  /* border-right: 1px solid rgba(0, 0, 0, 0.4); */
+}
+
+.planeicon {
+  color: #7697fa;
+  margin: -1rem -0.5rem 0 0;
+}
+
+.content h5 {
+  font-weight: bold;
+  /* text-align: center; */
+}
+
+.content p {
+  margin: 0;
+  margin-left: 1.6rem;
+}
+
+@media screen and (min-width: 760px) and (max-width: 1024px) {
+  .content {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .content {
+    width: 100%;
+  }
+  .maincontainer h1 {
+    padding: 2rem;
+  }
+}

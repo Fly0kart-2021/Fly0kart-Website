@@ -1,0 +1,141 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 30%;
+  margin: 1rem;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  padding: 2rem;
+}
+
+.cardinner,
+.cardinner div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageWrapper {
+  position: relative;
+  transition: 250ms ease-in-out;
+}
+
+.imageWrapper:hover {
+  transform: scale(1.08);
+}
+
+.OuterCircleImg {
+  margin: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; 
+}
+
+.empImg {
+  position: absolute;
+  top: 4.5%;
+  left: 5.5%;
+  height: 180px;
+  width: 180px;
+}
+
+.InnerCircleImg {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* .cardinner img {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    margin: 0.5rem 0;
+    object-fit: cover;
+} */
+
+/* .img {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+.name {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.title {
+  text-align: center;
+  /* margin: 0.5rem 0; */
+  font-weight: 700;
+  font-size: 1rem;
+  color: #2a40d4;
+  text-transform: uppercase;
+}
+
+.desc {
+  margin: 0.5rem 0;
+  /* width: 20%; */
+  padding: 0 1.5rem;
+  text-align: center;
+  font-size: small;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .cardinner {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* .title {
+        text-align: start;
+        margin-left: 2rem;
+    } */
+
+  .cardinner div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 0.7rem;
+  }
+
+  .cardinner img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .desc {
+    padding: 0;
+  }
+}

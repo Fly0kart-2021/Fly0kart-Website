@@ -1,0 +1,148 @@
+.body {
+  height: 88.8vh;
+}
+
+.landingContainer {
+  height: 42rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0 0rem;
+}
+
+.leftImg img {
+  width: 48vw;
+  padding: 4rem 0 0 6rem;
+}
+
+.homepageRight {
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 6rem 0rem 10rem 0rem;
+}
+
+.landingText {
+  text-align: center;
+  color: #6a696b;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.landingText2 {
+  text-align: center;
+  color: #807b82;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.buttons {
+  display: flex;
+}
+
+.bookNowBTN {
+  border: none;
+  background-color: #7697fa;
+  color: #ffff;
+  padding: 0.4rem 1.4rem;
+  border-radius: 0.4rem;
+  border: 2px solid #ffff;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  transition: all 300ms ease;
+}
+.bookNowBTN:hover {
+  opacity: 0.9;
+  border-color: #7697fa;
+}
+.callUsBtn {
+  border: none;
+  background-color: #ffff;
+  color: #7697fa;
+  border-radius: 0.4rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  border: 1px solid #ffff;
+  transition: all 300ms ease;
+}
+.callUsBtn:hover {
+  opacity: 0.8;
+}
+
+.buttons button img {
+  margin-right: 1rem;
+  width: 2.5vw;
+}
+
+@media screen and (max-width: 768px) {
+  .landingContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .mainimage {
+    display: none;
+  }
+
+  .homepageRight {
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-right: 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .flightdiv {
+    width: 32%;
+    padding: 0.7rem;
+  }
+
+  .flightdiv img {
+    width: 3rem;
+    margin-right: 0.4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .buttons button {
+    padding: 1rem 1.8rem;
+    font-size: 1.5rem;
+  }
+
+  .buttons button img {
+    width: 2rem;
+  }
+}
+@media screen and (max-width: 1370px) {
+}
+@media screen and (max-width: 1120px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 770px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) {
+  .leftImg img {
+    width: 80vw;
+    padding: 0;
+    margin: 2rem 0rem 0rem 3rem;
+  }
+}
+@media screen and (max-width: 380px) {
+}
+@media screen and (max-width: 360px) {
+}

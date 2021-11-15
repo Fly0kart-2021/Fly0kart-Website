@@ -1,0 +1,120 @@
+.heading {
+  margin: 2rem 0;
+  color: black;
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+}
+
+.container {
+  /* width: 100vw; */
+  height: 50%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 2rem;
+}
+
+.map {
+  width: 60%;
+}
+
+iframe {
+  width: 90%;
+  height: 100%;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  margin-left: 2rem;
+}
+
+.left {
+  width: 40%;
+}
+
+
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.name, .email, .message {
+    border: none;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem 4rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    outline: none;
+/* box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px; */
+}
+
+.message {
+    /* width: 100%; */
+    resize: none;
+    height: 10rem;
+}
+
+.contactform button {
+  margin-top: 1rem;
+  font-weight: bold;
+  width: 40%;
+  border: none;
+  padding: 1rem;
+  background-color: #7697fa;
+  color: white;
+  border-radius: 2rem;
+  font-size: 20px;
+  /* margin-right: 2rem; */
+}
+
+@media screen and (max-width: 1024px) {
+  .map {
+    width: 50%;
+  }
+
+  .left {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map {
+    width: 100%;
+    height: 300px;
+  }
+
+  .left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+
+ .contactform {
+        width: 100%;
+    }
+
+    .contactform div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name, .email, .message {
+        margin: 1rem 0;
+    }
+
+    .contactform button {
+        width: 60%;
+    }
+}
+

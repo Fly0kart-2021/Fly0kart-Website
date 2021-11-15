@@ -1,0 +1,70 @@
+.stepsWrapper {
+  margin: 5rem 0 8rem 0;
+}
+.Heading {
+  text-align: center;
+  font-size: 2rem;
+}
+.sup {
+  font-size: smaller;
+  color: #7697fa;
+}
+.stepsContainer {
+  display: flex;
+  padding: 4rem 4rem 0rem 4rem;
+  justify-content: space-evenly;
+}
+
+.stepCard {
+  width: 25%;
+  margin: 0rem;
+  text-align: center;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  display: flex;
+}
+.stepNo {
+  font-size: 5rem;
+  color: #7697fa;
+}
+.stepDescription {
+  height: 100%;
+  text-align: center;
+  margin: 1rem 0 0 0;
+}
+@media screen and (max-width: 1370px) {
+}
+@media screen and (max-width: 1120px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 770px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 420px) {
+  .stepsWrapper {
+    margin: 10rem 0 8rem 0;
+  }
+  .Heading {
+    margin: 1rem;
+  }
+  .stepsContainer {
+    flex-direction: column;
+    padding: 0;
+    margin: 0 0 4rem 0;
+  }
+  .stepCard {
+    width: 85%;
+    margin: 2rem 0 1rem 2rem;
+    padding: 0 2rem 0 2rem;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 380px) {
+}
+@media screen and (max-width: 360px) {
+}

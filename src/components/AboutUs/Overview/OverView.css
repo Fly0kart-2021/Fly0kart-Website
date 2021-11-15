@@ -1,0 +1,15 @@
+.companyOverViewContainer {
+  margin: 1rem 0 0 0;
+}
+.companyOverViewTitle {
+  margin: 4rem 0 0 0;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.companyOverViewDescription {
+  margin: 3rem 0 0 0;
+  padding: 1rem 5rem 1rem 5rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
