@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "./logo.png";
 import "./Navbar.css";
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const Navbar1 = () => {
   return (
     <Navbar
@@ -28,9 +29,13 @@ const Navbar1 = () => {
         style={{ width: "100%" }}
       >
         <Nav className="ml-auto">
-          <Nav.Link href="/">Home</Nav.Link>
+          {/* <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="#contact">Contact Us</Nav.Link>
-          <Nav.Link href="/about">About Us</Nav.Link>
+          <Nav.Link href="/about">About Us</Nav.Link> */}
+          <Link style={{padding: "0.5rem 0.5rem", color: "#000", textDecoration: 'none'}} to="/">Home</Link>
+          <Nav.Link href="#contact">Contact Us</Nav.Link>
+          <Link style={{padding: "0.5rem 0.5rem", color: "#000", textDecoration: 'none'}} to="/about">About Us</Link>
+
         </Nav>
       </Navbar.Collapse>
     </Navbar>
