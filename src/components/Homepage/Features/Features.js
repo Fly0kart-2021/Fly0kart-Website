@@ -34,7 +34,7 @@ const Features = () => {
       <Container
         fluid
         data-aos="fade-up"
-        style={{ marginBottom: "8rem" }}
+        style={{ marginBottom: "5rem" }}
         className="featuresContainer"
       >
         <Row>

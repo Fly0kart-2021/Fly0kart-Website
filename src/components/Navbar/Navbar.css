@@ -10,3 +10,8 @@
   color: red;
   text-decoration: none;
 }
+
+.nav-link {
+  color: black !important;
+  margin: 0 1.5rem;
+}

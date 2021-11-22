@@ -10,7 +10,7 @@ const Benefits = () => {
     Aos.init({ duration: 1000 });
   });
   return (
-    <div className={styles.maincontainer}>
+    <div className={styles.maincontainer} data-aos="fade-up">
       <h1 className={styles.heading} data-aos="fade-up">
         BOOK WITH US AND ENJOY THE BENIFITS
       </h1>
