@@ -25,14 +25,14 @@
 
 .landingText {
   text-align: center;
-  color: #6a696b;
+  color: #000;
   font-weight: 500;
   font-size: 3rem;
 }
 
 .landingText2 {
   text-align: center;
-  color: #807b82;
+  color: #312f31;
   font-weight: 500;
   font-size: 2rem;
 }
@@ -55,8 +55,9 @@
   transition: all 300ms ease;
 }
 .bookNowBTN:hover {
-  opacity: 0.9;
+  opacity: 1;
   border-color: #7697fa;
+  background-color: #254eca;
 }
 .callUsBtn {
   border: none;
@@ -71,7 +72,8 @@
   transition: all 300ms ease;
 }
 .callUsBtn:hover {
-  opacity: 0.8;
+  opacity: 1;
+  color: #254eca
 }
 
 .buttons button img {
