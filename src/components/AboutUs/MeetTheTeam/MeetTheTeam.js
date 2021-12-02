@@ -22,7 +22,7 @@ const MeetTheTeam = () => {
   }
 
   return (
-    <div>
+    <div className="bgmt">
       <h1 className="heading" data-aos="fade-up">
         Meet The <strong>Team</strong>!
       </h1>

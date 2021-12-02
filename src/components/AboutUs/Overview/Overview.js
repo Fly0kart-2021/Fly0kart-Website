@@ -8,7 +8,7 @@ const OverView = () => {
     Aos.init({ duration: 1000 });
   });
   return (
-    <div className="companyOverViewContainer">
+    <div className="companyOverViewContainer bgov">
       <div className="companyOverViewTitle" data-aos="slide-up">
         A Little About <b>Us</b>
       </div>
