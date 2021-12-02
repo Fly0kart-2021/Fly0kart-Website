@@ -8,10 +8,10 @@ const Navbar1 = () => {
     <Navbar
       expand="lg"
       style={{
-        backgroundColor: "#ffff",
+        backgroundColor: "#fff",
         padding: "0.5rem 3rem 0.5rem 3rem",
       }}
-      className="shadow-sm  bg-white rounded"
+      className="shadow-sm rounded"
     >
       <Navbar.Brand href="/">
         <img

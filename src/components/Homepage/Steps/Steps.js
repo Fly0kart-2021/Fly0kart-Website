@@ -7,7 +7,7 @@ const Steps = () => {
     Aos.init({ duration: 2000 });
   });
   return (
-    <div className={styles.stepsWrapper}>
+    <div className={styles.stepsWrapper} data-aos="fade-up">
       <div className={styles.Heading} data-aos="fade-up">
         <b>Here's a look at Journey of Booking with Fly0kart </b>
         <sup className={styles.sup}>IATA certified</sup>
