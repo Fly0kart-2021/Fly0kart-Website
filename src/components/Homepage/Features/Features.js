@@ -25,9 +25,8 @@ const Features = () => {
         READY FOR TAKEOFF
       </h1>
       <p
-        className={styles.iconColor}
         data-aos="fade-up"
-        style={{ marginBottom: "2rem" }}
+        style={{ marginBottom: "2rem", color:"#7697fa" }}
       >
         FLY0KART is a Global Technology Company with the Heart of a Startup.
       </p>
@@ -40,6 +39,7 @@ const Features = () => {
         <Row>
           <Col xs lg="3">
             <Card
+              className={styles.card}
               style={{ width: "18rem", margin: "0 0 1rem 0 " }}
               data-aos="fade-right"
             >
@@ -53,6 +53,7 @@ const Features = () => {
           </Col>
           <Col xs lg="3">
             <Card
+              className={styles.card}
               style={{ width: "18rem", margin: "0 0 1rem 0 " }}
               data-aos="fade-right"
               data-aos-delay="150"
@@ -69,6 +70,7 @@ const Features = () => {
           </Col>
           <Col xs lg="3">
             <Card
+              className={styles.card}
               style={{ width: "18rem", margin: "0 0 1rem 0 " }}
               data-aos="fade-right"
               data-aos-delay="250"
@@ -83,6 +85,7 @@ const Features = () => {
           </Col>
           <Col xs lg="2">
             <Card
+              className={styles.card}
               style={{ width: "18rem", margin: "0 0 1rem 0 " }}
               data-aos="fade-right"
               data-aos-delay="350"
