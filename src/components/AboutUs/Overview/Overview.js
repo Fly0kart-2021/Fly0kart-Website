@@ -3,12 +3,15 @@ import "./OverView.css";
 import aos from "aos";
 import "aos/dist/aos.css";
 import Aos from "aos";
+import { Row, Col, Container } from "react-bootstrap";
 const OverView = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   });
   return (
+    
     <div className="companyOverViewContainer bgov">
+      <Container>
       <div className="companyOverViewTitle" data-aos="slide-up">
         A Little About <b>Us</b>
       </div>
@@ -27,6 +30,8 @@ const OverView = () => {
         guaranteed resolution. If not, get your compensation back. Looking
         forward to serve you with the best online flight booking experience.
       </div>
+    </Container>
+
     </div>
   );
 };

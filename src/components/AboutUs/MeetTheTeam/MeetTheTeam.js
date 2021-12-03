@@ -5,6 +5,8 @@ import Data from "./Data";
 import aos from "aos";
 import "aos/dist/aos.css";
 import Aos from "aos";
+import { Row, Col, Container } from "react-bootstrap";
+
 const MeetTheTeam = () => {
   const [active, setActive] = useState("Leader");
   useEffect(() => {
@@ -23,6 +25,7 @@ const MeetTheTeam = () => {
 
   return (
     <div className="bgmt">
+      <Container>
       <h1 className="heading" data-aos="fade-up">
         Meet The <strong>Team</strong>!
       </h1>
@@ -58,6 +61,7 @@ const MeetTheTeam = () => {
         {active === "Creative" && <Cards data={Data} index={2} />}
         {active === "Development" && <Cards data={Data} index={3} />}
       </div>
+      </Container>
     </div>
   );
 };
