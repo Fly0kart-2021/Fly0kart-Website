@@ -40,7 +40,7 @@ const Features = () => {
           <Col xs lg="3">
             <Card
               className={styles.card}
-              style={{ width: "18rem", margin: "0 0 1rem 0 " }}
+              style={{ margin: "0 0 1rem 0 " }}
               data-aos="fade-right"
             >
               <Card.Body>
@@ -54,7 +54,7 @@ const Features = () => {
           <Col xs lg="3">
             <Card
               className={styles.card}
-              style={{ width: "18rem", margin: "0 0 1rem 0 " }}
+              style={{ margin: "0 0 1rem 0 " }}
               data-aos="fade-right"
               data-aos-delay="150"
             >
@@ -71,7 +71,7 @@ const Features = () => {
           <Col xs lg="3">
             <Card
               className={styles.card}
-              style={{ width: "18rem", margin: "0 0 1rem 0 " }}
+              style={{ margin: "0 0 1rem 0 " }}
               data-aos="fade-right"
               data-aos-delay="250"
             >
@@ -83,10 +83,10 @@ const Features = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs lg="2">
+          <Col xs lg="3">
             <Card
               className={styles.card}
-              style={{ width: "18rem", margin: "0 0 1rem 0 " }}
+              style={{ margin: "0 0 1rem 0 " }}
               data-aos="fade-right"
               data-aos-delay="350"
             >

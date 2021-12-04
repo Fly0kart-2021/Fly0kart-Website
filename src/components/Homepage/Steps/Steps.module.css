@@ -1,5 +1,4 @@
 .stepsWrapper {
-  margin: 3rem 0 3rem 0;
   padding: 4rem;
   background-color: #7697fa;
 }
@@ -49,13 +48,22 @@ b,p {
 @media screen and (max-width: 840px) {
 }
 @media screen and (max-width: 770px) {
+  .stepCard {
+    width: 33%;
+    display:block;
+    margin: 0rem;
+    text-align: center;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 480px) {
 }
-@media screen and (max-width: 420px) {
-  .stepsWrapper {
+@media screen and (max-width: 426px) {
+  /*.stepsWrapper {
     margin: 10rem 0 8rem 0;
-  }
+  }*/
   .Heading {
     margin: 1rem;
   }
@@ -65,8 +73,8 @@ b,p {
     margin: 0 0 4rem 0;
   }
   .stepCard {
-    width: 85%;
-    margin: 2rem 0 1rem 2rem;
+    width: 100%;
+    margin: 2rem 1rem 2rem;
     padding: 0 2rem 0 2rem;
     text-align: center;
   }

@@ -6,7 +6,7 @@
   height: 42rem;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 1rem 0 0rem;
+  
 }
 
 .leftImg img {
@@ -84,7 +84,6 @@
 @media screen and (max-width: 768px) {
   .landingContainer {
     display: flex;
-    flex-direction: column;
     margin: 0;
   }
 
@@ -93,6 +92,7 @@
   }
 
   .homepageRight {
+    color:#ffff;
     width: 100vw;
     justify-content: space-evenly;
     margin-right: 0;
@@ -134,17 +134,50 @@
 @media screen and (max-width: 840px) {
 }
 @media screen and (max-width: 770px) {
+  .leftImg {
+    display:none;
+  }
+  .homepageRight:after{
+    content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.7);
+}
+.homepageRight > h1,.homepageRight > h2{
+  color:#ffff;
+}
+.homepageRight > h1,.homepageRight > h2,.homepageRight > div {
+	z-index: 1;
+}
+  .homepageRight {
+    background: url('../images/image.svg');
+    background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+  }
 }
 @media screen and (max-width: 480px) {
+  .leftImg img {
+    display:none;
+  }
 }
 @media screen and (max-width: 420px) {
   .leftImg img {
-    width: 80vw;
-    padding: 0;
-    margin: 2rem 0rem 0rem 3rem;
+    display:none;
   }
 }
 @media screen and (max-width: 380px) {
+  .leftImg img {
+    display:none;
+  }
 }
 @media screen and (max-width: 360px) {
+  .leftImg img {
+   display:none;
+  }
 }

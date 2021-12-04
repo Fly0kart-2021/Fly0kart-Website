@@ -60,3 +60,14 @@
     padding: 2rem;
   }
 }
+@media screen and (max-width: 426px) {
+  .container {
+    margin: 1rem;
+    width: 130%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 1rem 0 1rem;
+    border-radius: 1rem;
+  }
+}
