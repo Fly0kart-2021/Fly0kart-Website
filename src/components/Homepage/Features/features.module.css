@@ -32,12 +32,9 @@
   box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
   border: none;  
 }
-.card:hover{
+.card:hover div .iconColor,.card:hover div p,.card:hover{
   border-radius: 4px;
   background:#7697fa;
   transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-  color: azure;
-}
-.iconColor:hover {
-  color: #fff;
+  color: #fff!important;
 }
